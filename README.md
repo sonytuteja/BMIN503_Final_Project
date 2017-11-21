@@ -18,3 +18,8 @@ DUE DATE FOR FINAL VERSION: 12/8/17 11:59PM. This is a hard deadline. Turn in wh
 [ref-commit]: http://gitref.org/basic/#commit
 [ref-push]: http://gitref.org/remotes/#push
 [pull-request]: https://help.github.com/articles/creating-a-pull-request
+
+#Description
+This repository contains a metabolomics dataset acquired from 70 healthy human subjects receiving 1 gm of niacin following an overnight fast. Plasma samples obtained at timepoints 0 (pre-dose), 2,5,8 hours following the dose. Samples were assayed using using an untargeted gas-chromatography- mass spectrometry (GCMS) based metabolomics (Fiehn Lab, UC Davis, CA). The GCMS platform measured a total of 395 metabolites (180 known and 215 unknown).
+
+In addition, the R code, analysis plan and results are available in the Rmd file.

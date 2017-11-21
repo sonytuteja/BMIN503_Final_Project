@@ -1,6 +1,6 @@
 ---
-title: "BMIN503/EPID600 Project Template"
-author: "Your Name"
+title: "Unbiased Metabolomic Screen to identify biomarkers of drug response"
+author: "Sony Tuteja, PharmD, MS"
 output: 
   html_document:
     toc: false 
@@ -15,18 +15,29 @@ options(width = 400)
 Use this template to complete your project throughout the course. Your Final Project presentation in class will be based on the contents of this document. Replace the title/name and text below with your own, but leave the headers.
 
 ### Overview
-In this section, give a brief a description of your project and its goal, what data you are using to complete it, and what three faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
-
+Niacin (vitamine B3) in large doses reduces plasma total cholesterol, low density lipoprotein cholesterol (LDL-C) and Triglycerides (TG). It can also raise high density lipoprotein cholesterol (HDL-C). However the mechanism by which niacin modulates plasma lipids is unknown. The dataset to be analyzed are results from an unbiased metabolomic profiling on plasma from healthy subjects receiving one dose of niacin. Supervised and unsupervised methods learned in this class will be applied to identify metabolites associated with lipid response to niacin.
+https://github.com/sonytuteja/BMIN503_Final_Project 
 
 ### Introduction 
-In the first paragraph, describe the problem addressed, its significance, and some background to motivate the problem.
+Atherosclerosis is the leading cause of death worldwide. Plasma lipids such as low-density lipoprotein cholesterol (LDL-C) and triglycerides (TG) are associated with coronary heart disease (CHD). Statins are the cornerstone of lipid lowering therapy reducing LDL-C by up to 50%, but even after aggressive LDL-C lowering there remains a high level of residual risk in susceptible individuals. There is a need for new hypolipidemic agents to modualate this risk. Niacin has been used for over 50 years to reduce plasma cholesterol, LDL-C and TGs. Niacin also raises high-density lipoprotein cholesterol (HDL-C), "the good cholesterol." However the mechanism by which niacin modulates plasma lipids is still unknown. I employed metabolomic profiling to identify metabolites associated with lipid response to niacin to identify drug-induced pertubations in metabolic pathways that are relevant to niacin's action on plasma lipids. The metabolomics dataset is very dense with hundreds of metabolites measured at each timepoint. I will apply supervised and unsupervised analysis tools to identify significant metabolites that point to the mechanism of niacin.
 
-In the second paragraph, explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+The application of metabolomics to the discovery of biomarkers of drug response requires multidisciplanary expertise. It requires the technical knowledge of mass spectrometry assay development and metabolite identification. This experience will be useful to identify artifacts that may arise from the assay or sample preparation that may spuriously associated with the phenotype of interest. Expertise in clinical trial design is vital for appropriately designing the study to minimize confounders such as time of day or timing of meals around sample collection. Knowledge of pharmacology and metabolism is critical for data interpretation and follow up studies to infer biological relationships, for example off-target drug effects that are not relevant to the phenotype of interest but may be influencing metabolic pathway that are detected by metabolomics analysis. Lastly, expertise in analysis of multi-dimension data and statisics is critical for performing the correct normalization steps and methods to identify signficant features in the dataset.
 
 
 ### Methods
+Pre- and post- niacin plasma samples at time 0,2,5,8 hours were profiled in 70 (50 European, 20 African American) healthy subjects receiving 1 gm of niacin under fasting conditions using an untargeted gas-chromatography- mass spectrometry (GCMS) based metabolomics (Fiehn Lab, UC Davis, CA). The GCMS platform measured a total of 395 metabolites (180 known and 215 unknown). Data were normalized by median and autoscaled. PCA analysis were performed. Time series analysis were performed to determine which metabolites were significantly changed from time 0 (pre-niacin), with false discovery rate of 5% applied to account for multiple testing.
+
+Plasma triglycerides, HDL-C, and total cholesterol (TC) were measured at time 0 and 8 hours. LDL-C was determined by using the Friedwall equation. The delta lipid values were determined by subtracting lipid levels at 0 hour from Lipid levels at 8 hr.
+Linear regression models were built to determine which metabolites were significant predictors of delta TG, HDL-C, TC and LDL-C, including age, sex, race and body mass index as covariates.
+
 In the first paragraph, describe the data used and general methodological approach. Subsequently, incorporate full R code necessary to retrieve and clean data, and perform analysis. Be sure to include a description of code so that others (including your future self) can understand what you are doing and why. 
 
 
 ### Results
+
+Figure 1. Results of normalization procedure
+Figure 2. PCA plot with time and race as factors
+Table 1. Results of time series anova ranked by descending p-value
+Results of linear regression models to predict delta TG, HDL-C, TC, and LDL-C.
+
 Describe your results and include relevant tables, plots, and code/comments used to obtain them. End with a brief conclusion of your findings related to the question you set out to address. You can include references if you'd like, but this is not required.
