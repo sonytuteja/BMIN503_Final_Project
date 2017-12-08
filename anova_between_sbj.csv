@@ -1,0 +1,80 @@
+"","Time","Sex","Interaction"
+"isonicotinic acid",1.0779e-91,4.0912e-06,5.3989e-14
+"oleic acid",1.2077e-60,0.00072317,0.6203
+"linoleic acid",4.2197e-58,0.001227,0.6203
+"palmitic acid",3.9126e-57,0.00015303,0.75188
+"nicotinamide",2.7197e-44,0.8577,0.86676
+"palmitoleic acid",2.0039e-42,3.4102e-06,0.0028813
+"heptadecanoic acid",4.0782e-38,0.019433,0.90664
+"linolenic acid",1.2129e-36,0.29139,0.90664
+"3-hydroxybutyric acid",4.4673e-30,0.045645,0.86676
+"myristic acid",3.0733e-27,0.0015215,0.75188
+"docosahexaenoic acid",5.6901e-26,0.24631,0.84694
+"glutamic acid",3.9244e-20,0.023911,0.9651
+"tryptophan",2.5011e-19,0.67578,0.85954
+"hexuronic acid",4.3624e-19,0.29139,0.75188
+"glycerol",3.7941e-18,0.00014847,0.77145
+"stearic acid",2.9159e-17,0.0118,0.95842
+"2-hydroxybutanoic acid",5.1282e-17,0.60386,0.97174
+"indole-3-lactate",2.4303e-15,0.017136,0.89336
+"adipic acid",2.9035e-15,0.34692,0.12253
+"capric acid",3.9567e-15,0.019433,0.7283
+"isoheptadecanoic acid NIST",3.8713e-14,0.0022282,0.94945
+"alanine",1.4863e-12,0.78377,0.89336
+"serine",3.1587e-11,0.8577,0.75188
+"phytanic acid",1.182e-10,0.3649,0.86676
+"glucose",9.2891e-09,0.99869,0.94001
+"lauric acid",1.5328e-08,0.017136,0.85954
+"alanine-alanine",4.4191e-08,0.46248,0.75188
+"behenic acid",5.6718e-08,0.019433,0.75188
+"ornithine",7.5436e-08,0.050201,0.75188
+"indole-3-acetate",2.0019e-07,0.38844,0.98873
+"lactic acid",2.1451e-07,0.018605,0.77145
+"phenylalanine",4.9124e-07,0.9555,0.77145
+"threonine",5.0432e-07,0.82665,0.75188
+"succinic acid",5.7776e-07,0.75832,0.74862
+"arachidonic acid",7.9058e-07,0.67578,0.97174
+"aspartic acid",1.0823e-06,0.78377,0.90664
+"homoserine",2.2514e-06,0.30812,0.75188
+"tyrosine",3.6658e-06,0.9555,0.75188
+"methionine sulfoxide",5.0556e-06,0.56633,0.86676
+"xylitol",6.6182e-06,0.16569,0.74862
+"lysine",9.8803e-06,0.70523,0.75188
+"phosphate",1.1511e-05,0.094157,0.914
+"cellobiose",2.4684e-05,0.67578,0.86676
+"threonic acid",3.2746e-05,8.8183e-12,0.9536
+"N-methylalanine",6.5564e-05,0.17931,0.94001
+"isoleucine",6.6808e-05,0.8577,0.75188
+"mannose",9.0794e-05,0.46248,0.92678
+"threitol",0.00014337,0.73874,0.74862
+"ibuprofen",0.00060671,0.94325,0.89583
+"citrulline",0.00092553,0.92587,0.84759
+"N-acetylglycine",0.0011922,0.9555,0.9651
+"oxoproline",0.001409,0.33661,0.89583
+"erythritol",0.0014482,0.087852,0.84237
+"histidine",0.0018743,0.91585,0.85954
+"glycine",0.0023134,0.73874,0.90664
+"hydroxyproline dipeptide NIST",0.0044657,0.013958,0.914
+"proline",0.0049453,0.82463,0.94001
+"glyceric acid",0.0049586,0.73874,0.9651
+"aminomalonate",0.0056734,0.45876,0.89583
+"trans-4-hydroxyproline",0.00743,0.8624,0.98247
+"methionine",0.011103,0.60151,0.99957
+"caprylic acid",0.016197,0.0027446,0.78249
+"valine",0.01827,0.50535,0.84759
+"glutamine",0.020716,0.78377,0.78249
+"hypoxanthine",0.034307,0.21851,0.6203
+"fumaric acid",0.035872,0.16792,0.77739
+"2-ketoglucose dimethylacetal NIST",0.049274,0.81895,0.86676
+"lyxitol",0.066608,0.0022282,0.86676
+"isocitric acid",0.066608,0.0118,0.93807
+"citric acid",0.07082,6.1588e-06,0.9536
+"2-deoxytetronic acid NIST",0.14709,8.8183e-12,0.86676
+"phenylethylamine",0.14928,0.0118,0.85228
+"isothreonic acid",0.19835,0.0022282,0.9651
+"aconitic acid",0.32875,0.043445,0.74862
+"citraconic acid",0.40933,0.00042027,0.75188
+"salicylic acid",0.43764,0.046463,0.89583
+"1,5-anhydroglucitol",0.48857,3.4102e-06,0.914
+"uric acid",0.57326,0.00025417,0.86676
+"acetaminophen",0.94089,0.013958,0.75188
